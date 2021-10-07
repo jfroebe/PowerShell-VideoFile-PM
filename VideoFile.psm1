@@ -8,6 +8,8 @@
 ##
 ## use within your script:
 ## [VideoFile] $myVideoFile =  [VideoFile]::new($FileName)
+##
+## Works with PS 5 and higher (even ps core on Linux)
 
 class VideoFile {
     # Properties
